@@ -1,0 +1,125 @@
+.button {
+    padding: 17px 20px;
+    border-radius: 50px;
+    border: 1px solid rgb(141, 0, 206);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    color: var(--white-color);
+}
+
+.button:hover {
+    letter-spacing: 3px;
+}
+
+.button:active {
+    letter-spacing: 3px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: var(--white-color) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+}
+
+.about__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 4rem;
+}
+
+.about__img {
+    width: 350px;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__info {
+    grid-template-columns: repeat(3, 140px);
+    gap: 0.5rem;
+    margin-bottom: var(--mb-2);
+}
+
+.about__box {
+    border: 1px solid rgb(141, 0, 206);
+    text-align: center;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+}
+
+.about__icon {
+    font-size: 1.5rem;
+    color: var(--white-color);
+    margin-bottom: var(--mb-0-5);
+}
+
+.about__title {
+    font-size: var(--small-font-size);
+    font-weight: var(--font-medium);
+}
+
+.about__subtitle {
+    font-size: var(--tiny-font-size);
+}
+
+.about__description {
+    padding: 0 4rem 0 0;
+    margin-bottom: var(--mb-2-5);
+}
+
+.about__description span {
+    opacity: 0.5;
+    cursor: pointer;
+    font-size: var(--small-font-size);
+}
+
+@media screen and (max-width: 992px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        row-gap: 2.5rem;
+    }
+
+    .about__img {
+        width: 220px;
+    }
+
+    .about__box {
+        padding: 0.75rem 0.5rem;
+    }
+
+    .about__data {
+        text-align: center;
+    }
+
+    .about__info {
+        justify-content: center;
+    }
+
+    .about__description {
+        padding: 0 5rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .about__info {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .about__description {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about__info {
+        grid-template-columns: repeat(2, 1ref);
+    }
+}
+
+.about__modal-description {
+    color: var(--white-color);
+    font-size: var(--small-font-size);
+}
