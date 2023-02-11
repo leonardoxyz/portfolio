@@ -49,7 +49,7 @@ export const Services = () => {
                                 </li>
 
                                 <li className="services__modal-service-button">
-                                    <a href="https://github.com/Leonardoxyz" target={"blank"}><button className='services__button-repository'>Go to repository</button></a>
+                                    <a href="https://github.com/leonardoxyz/MegaHealthTCC" target={"blank"}><button className='services__button-repository'>Go to repository</button></a>
                                 </li>
                             </ul>
                         </div>

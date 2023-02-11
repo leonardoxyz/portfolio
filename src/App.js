@@ -20,7 +20,6 @@ function App() {
         <About />
         <Skills />
         <Services />
-        <Opinions />
         <Projects />
         <Footer />
       </main>

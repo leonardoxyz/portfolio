@@ -4,6 +4,7 @@ import "../../App.js";
 import { useState } from 'react';
 import AboutImg from "../../assets/profile.jpg";
 import loginapp from "../../assets/MERN-loginapp.png";
+import mh from '../../assets/mh.png'
 
 const Projects = () => {
 
@@ -53,6 +54,23 @@ const Projects = () => {
                             </div>
                             <div className="projects__btn">
                                 <a href="https://github.com/leonardoxyz/MERN-LoginAPP" target={"blank"}><button onClick={addStore}>See Project</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="projects__card">
+                    <div className="projects__img">
+                        <img src={mh} />
+                    </div>
+                    <div className="projects__content grid">
+                        <div className="projects__details">
+                            <h2>MegaHealth<br/><span>Pharmaceutical ecommerce of school</span></h2>
+                            <div className="projects__data">
+                                <h3>Views - <span id="resultStore">{dStore}</span></h3>
+                            </div>
+                            <div className="projects__btn">
+                                <a href="https://github.com/leonardoxyz/MegaHealthTCC" target={"blank"}><button onClick={addStore}>See Project</button></a>
                             </div>
                         </div>
                     </div>

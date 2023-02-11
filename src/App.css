@@ -108,13 +108,15 @@ img {
 
 .section__title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: rgb(141, 0, 206);
+  text-transform: uppercase;
 }
 
 .section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom: 4rem;
+  opacity: 0.6;
 }
 
 .section__title,

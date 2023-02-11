@@ -8,7 +8,7 @@ const Header = () => {
     return (
         <header className="header">
             <nav className="nav container">
-                <a href="index.html" className="nav__logo">Leonardo Santos</a>
+                <a href="index.html" className="nav__logo">Léo Santos</a>
 
                 <div className={Toggle ? "nav__menu show-menu" : "nav__menu"}>
                     <ul className="nav__list grid">
@@ -36,11 +36,11 @@ const Header = () => {
                             </a>
                         </li>
 
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#opinions" className="nav__link">
                                 <i className="uil uil-scenery nav__icon"></i>Opinions
                             </a>
-                        </li>
+                        </li> */}
 
                         <li className="nav__item">
                             <a href="#projects" className="nav__link">

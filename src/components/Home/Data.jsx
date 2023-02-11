@@ -1,4 +1,6 @@
 import React from 'react';
+import { GoMarkGithub } from "react-icons/go";
+import { AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 
 const Data = () => {
     return (
@@ -74,6 +76,13 @@ const Data = () => {
                     </button>
                 </a>
             </p>
+
+            <div className="home-social">
+                <a href="https://github.com/Leonardoxyz" target="_blank"><GoMarkGithub /></a>
+                <a href="https://wa.me/+5516993137105"><AiOutlineWhatsApp /></a>
+                <a href="https://instagram.com/leozinjbk"><AiOutlineInstagram /></a>
+                <a href=""><AiOutlineLinkedin /></a>
+            </div>
         </div>
     )
 }
