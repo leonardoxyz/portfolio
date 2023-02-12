@@ -22,7 +22,8 @@ const Data = () => {
                 visible: { opacity: 1, x: 0 }
             }}>
                 <h3 className="home__subtitle">
-                    Front-end Developer
+                    Front-end Developer<br />
+                    Portfolio constantly updated!
                 </h3>
                 <p className="home__description">Just a noble developer in an ocean of code.</p>
             </motion.div>

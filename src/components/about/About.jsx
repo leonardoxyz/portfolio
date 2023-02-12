@@ -18,37 +18,40 @@ export const About = () => {
 
     return (
         <section className="about section" id="about">
-            <h2 className="section__title">About Me</h2>
-            <span className="section__subtitle">My Introduction</span>
+            <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} transition={{ duration: 0.1 }}>
+                <h2 className="section__title">About Me</h2>
+                <span className="section__subtitle">My Introduction</span>
+            </motion.div>
 
-            <div className="about__container container grid">
-                
-                <img src={secundaryPhoto} alt="" className="about__img" />
+            <motion.div initial={{ x: 0, opacity: 0 }} whileInView={{ x: [-250, 0], opacity: 1 }} transition={{ duration: 0.5 }}>
+                <div className="about__container container grid">
+                    <img src={secundaryPhoto} alt="" className="about__img" />
+                    <div className="about__data">
+                        <Info />
+                        <p className="about__description">
+                            {text}
+                            <br /><span onClick={() => toggleTab(1)}>Ler mais</span>
+                            <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
+                                <div className="services__modal-content">
+                                    <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                <div className="about__data">
-                    <Info />
-                    <p className="about__description">
-                        {text}
-                        <br /><span onClick={() => toggleTab(1)}>Ler mais</span>
-                        <div className={toggleState === 1 ? "services__modal active-modal" : "services__modal"}>
-                            <div className="services__modal-content">
-                                <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
-
-                                <h3 className="services__modal-title">A little about me</h3>
-                                <p className="about__modal-description uil uil-visual-studio"> - {textMore}</p><br />
-                                <p className="about__modal-description uil uil-analysis"> - {textMore2}</p>
-                                <br />
-                                <li className="services__modal-service-button">
-                                    <a onClick={() => toggleTab(0)}><button className='services__button-repository'>Back</button></a>
-                                </li>
+                                    <h3 className="services__modal-title">A little about me</h3>
+                                    <p className="about__modal-description uil uil-visual-studio"> - {textMore}</p><br />
+                                    <p className="about__modal-description uil uil-analysis"> - {textMore2}</p>
+                                    <br />
+                                    <li className="services__modal-service-button">
+                                        <a onClick={() => toggleTab(0)}><button className='services__button-repository'>Back</button></a>
+                                    </li>
+                                </div>
                             </div>
-                        </div>
-                    </p>
-                    <motion.a whileHover={{scale: 1.1}} transition={{duration: 0.3}}>
-                        <a download="" href="" className="button button--flex">Download CV</a>
-                    </motion.a>
+                        </p>
+
+                        <motion.a whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
+                            <a download="" href="" className="button button--flex">Download CV</a>
+                        </motion.a>
+                    </div>
                 </div>
-            </div>
+            </motion.div>
         </section>
     )
 }
