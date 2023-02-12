@@ -8,6 +8,7 @@
     position: relative;
     border: 1px solid rgb(141, 0, 206);
     padding: 1rem 0 2rem 2.5rem;
+    border-radius: 1.25rem;
 }
 
 .services__icon {
@@ -30,6 +31,7 @@
     align-items: center;
     column-gap: 0.25rem;
     cursor: pointer;
+    transition: .3s;
 }
 
 .services__button-icon {
@@ -45,9 +47,6 @@
 .services__button:hover {
     color: var(--white-color);
 }
-
-
-
 
 .services__button-repository {
     display: flex;

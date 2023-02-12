@@ -2,24 +2,24 @@
     padding: 17px 40px;
     border-radius: 10px;
     border: 0;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    background-color: rgba(255, 255, 255, 0.281);
     letter-spacing: 1.5px;
     text-transform: uppercase;
     font-size: 15px;
     transition: all .5s ease;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.7);
 }
 
 .button:hover {
     letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
+    background-color: rgb(141, 0, 206);
     color: hsl(0, 0%, 100%);
-    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+    box-shadow: rgb(255, 255, 255, 0.3) 0px 7px 29px 0px;
 }
 
 .button:active {
     letter-spacing: 3px;
-    background-color: hsl(261deg 80% 48%);
+    background-color: rgb(141, 0, 206);
     color: hsl(0, 0%, 100%);
     box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
     transform: translateY(10px);
@@ -36,6 +36,7 @@
     width: 350px;
     border-radius: 1.5rem;
     justify-self: center;
+    box-shadow: 0 0 20px #8c12f0;
 }
 
 .about__info {

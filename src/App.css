@@ -102,6 +102,17 @@ img {
   height: auto;
 }
 
+.nav__logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.nav__logo img {
+  height: 20px;
+}
+
 .section {
   padding: 6rem 0 2rem;
 }
@@ -153,6 +164,7 @@ button {
   overflow: hidden;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+  animation: opacity 500ms;
 }
 
 button span {
@@ -171,6 +183,10 @@ button svg {
   transition: -webkit-transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out;
   transition: transform 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+}
+
+button:hover {
+  box-shadow: rgb(255, 255, 255, 0.3) 0px 7px 29px 0px;
 }
 
 button:hover .svg-wrapper {

@@ -3,6 +3,7 @@ import "./about.css";
 import secundaryPhoto from "../../assets/secundaryPhoto.jpg";
 // import CV from "../../assets/John-Cv.pdf";
 import Info from './Info';
+import { motion } from 'framer-motion';
 
 export const About = () => {
     const [toggleState, setToggleState] = useState(0);
@@ -21,6 +22,7 @@ export const About = () => {
             <span className="section__subtitle">My Introduction</span>
 
             <div className="about__container container grid">
+                
                 <img src={secundaryPhoto} alt="" className="about__img" />
 
                 <div className="about__data">
@@ -42,7 +44,9 @@ export const About = () => {
                             </div>
                         </div>
                     </p>
-                    <a download="" href="" className="button button--flex">Download CV</a>
+                    <motion.a whileHover={{scale: 1.1}} transition={{duration: 0.3}}>
+                        <a download="" href="" className="button button--flex">Download CV</a>
+                    </motion.a>
                 </div>
             </div>
         </section>
