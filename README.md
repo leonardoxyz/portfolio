@@ -1,70 +1,20 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50">
+Hello! This is my portfolio. I'm updating frequently with new tools I'm learning. Consequently adding projects that I am interested in doing...
 
-## Available Scripts
+![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Bhard27.Bhard27)
 
-In the project directory, you can run:
+### Summary👋
+- 🔭 I’m currently working on Deep Learning research projects.
+- 👯 I’am currently studying Systems Analysis and Development in Taquaritinga - SP. In constant learning!
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!--START_SECTION:activity
+1. 🚀 Pushed 1 commit to [Bhard27/Bhard27](https://github.com/Bhard27/Bhard27)
+2. ❗️ Opened issue [#1](https://github.com/tassossapalidis/latextgan/issues/1) in [tassossapalidis/latextgan](https://github.com/tassossapalidis/latextgan)
+3. ❗️ Closed issue [#2](https://github.com/Bhard27/Bhard27/issues/2) in [Bhard27/Bhard27](https://github.com/Bhard27/Bhard27)
+4. 🗣 Commented NaN commits in [AmineDiro/Adversarial-Attacks](https://github.com/AmineDiro/Adversarial-Attacks)
+5. 🗣 Commented on [#30](https://github.com/SimonBlanke/Hyperactive/issues/30) in [SimonBlanke/Hyperactive](https://github.com/SimonBlanke/Hyperactive)
+END_SECTION:activity-->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
