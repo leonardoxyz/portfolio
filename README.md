@@ -8,7 +8,7 @@ Hello! This is my portfolio. I'm updating frequently with new tools I'm learning
 - 🔭 I’m currently working on Deep Learning research projects.
 - 👯 I’am currently studying Systems Analysis and Development in Taquaritinga - SP. In constant learning!
 
-### Recent Activity
+
 <!--START_SECTION:activity
 1. 🚀 Pushed 1 commit to [Bhard27/Bhard27](https://github.com/Bhard27/Bhard27)
 2. ❗️ Opened issue [#1](https://github.com/tassossapalidis/latextgan/issues/1) in [tassossapalidis/latextgan](https://github.com/tassossapalidis/latextgan)
