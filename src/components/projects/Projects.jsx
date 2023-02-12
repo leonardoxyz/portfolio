@@ -37,7 +37,7 @@ const Projects = () => {
                                     <h3>Views - <span id="result">{dPortfolio}</span></h3>
                                 </div>
                                 <div className="projects__btn">
-                                    <a href="https://github.com/leonardoxyz/portfoliov2" target={"blank"}><button onClick={Add}>See Project</button></a>
+                                    <a href="https://github.com/leonardoxyz/portfoliov2" target={"blank"}><button className='btn-project' onClick={Add}>See Project</button></a>
                                 </div>
                             </div>
                         </div>
@@ -54,7 +54,7 @@ const Projects = () => {
                                     <h3>Views - <span id="resultStore">{dStore}</span></h3>
                                 </div>
                                 <div className="projects__btn">
-                                    <a href="https://github.com/leonardoxyz/MERN-LoginAPP" target={"blank"}><button onClick={addStore}>See Project</button></a>
+                                    <a href="https://github.com/leonardoxyz/MERN-LoginAPP" target={"blank"}><button className='btn-project' onClick={addStore}>See Project</button></a>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                                     <h3>Views - <span id="resultStore">{dStore}</span></h3>
                                 </div>
                                 <div className="projects__btn">
-                                    <a href="https://github.com/leonardoxyz/MegaHealthTCC" target={"blank"}><button onClick={addStore}>See Project</button></a>
+                                    <a href="https://github.com/leonardoxyz/MegaHealthTCC" target={"blank"}><button className='btn-project' onClick={addStore}>See Project</button></a>
                                 </div>
                             </div>
                         </div>

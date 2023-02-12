@@ -18,7 +18,7 @@ export const About = () => {
 
     return (
         <section className="about section" id="about">
-            <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} transition={{ duration: 0.1 }}>
+            <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} transition={{ duration: 0.8 }}>
                 <h2 className="section__title">About Me</h2>
                 <span className="section__subtitle">My Introduction</span>
             </motion.div>

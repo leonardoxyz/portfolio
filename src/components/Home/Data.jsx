@@ -2,10 +2,11 @@ import React from 'react';
 import { GoMarkGithub } from "react-icons/go";
 import { AiOutlineWhatsApp, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import Social from './Social';
 
 const Data = () => {
     return (
+
         <div className="home__data">
             <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.2 }} variants={{
                 hidden: { opacity: 0, x: +50 },
@@ -16,8 +17,7 @@ const Data = () => {
                     Léo Santos
                 </h1>
             </motion.div>
-
-            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 0.4 }} variants={{
+            <motion.div initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.5 }} transition={{ duration: 1 }} variants={{
                 hidden: { opacity: 0, x: +100 },
                 visible: { opacity: 1, x: 0 }
             }}>
@@ -33,18 +33,14 @@ const Data = () => {
                 visible: { opacity: 1, x: 0 }
             }}>
                 <a href="https://wa.me/+5516993137105" target={'_blank'}>
-                    <button>
-                        <div class="svg-wrapper-1">
-                            <div class="svg-wrapper">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-                                    <path fill="none" d="M0 0h24v24H0z"></path>
-                                    <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
-                                </svg>
-                            </div>
-                        </div>
-                        <span>Contact</span>
-                    </button>
+                    <button className='btn-contact'>Contact</button>
                 </a>
+            </motion.div>
+
+            <motion.div iinitial={{ opacity: 0 }} whileInView={{ y: [-30, 0], opacity: 1 }} transition={{ duration: 1 }}>
+                <div className="home-scroll">
+                    <Social />
+                </div>
             </motion.div>
 
             <div className="home-social">
