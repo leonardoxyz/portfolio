@@ -2,7 +2,7 @@ import React from 'react';
 import "./home.css";
 import Social from './Social';
 import Data from './Data';
-import photo from '../../assets/profile.jpg'
+import photo from '../../assets/profile.png'
 import { motion } from 'framer-motion';
 const Home = () => {
     return (
