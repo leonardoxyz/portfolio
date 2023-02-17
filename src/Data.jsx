@@ -8,6 +8,7 @@ export const projects = [
     img: Portfolio,
     category: 'Website',
     title: 'Léo Santos - Portfolio',
+    repoLink: 'https://github.com/leonardoxyz/portfoliov2',
     description:
       'This project is the same one that is selling now!',
   },
@@ -16,6 +17,7 @@ export const projects = [
     img: MLoginAPP,
     category: 'API Apps',
     title: 'MERN - Login APP',
+    repoLink: 'https://github.com/leonardoxyz/MERN-LoginAPP',
     description:
       'Project for user registration.',
   },
@@ -24,6 +26,7 @@ export const projects = [
     img: MegaHealth,
     category: 'API Apps',
     title: 'MegaHealth',
+    repoLink: 'https://github.com/leonardoxyz/MegaHealthTCC',
     description:
       'Pharmaceutical ecommerce of school.',
   },

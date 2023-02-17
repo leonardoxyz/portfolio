@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import "./projects.css";
 import "../../App.js";
-import { motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import List from './List';
 import Items from './Items'
 import { projects } from '../../Data';
@@ -17,7 +17,7 @@ function Projects() {
     const [navList, setCategories] = useState(allNavList);
     const filterItems = (category) => {
 
-        if(category == 'All') {
+        if (category == 'All') {
             setMenuitems(projects);
             return;
         }
@@ -27,16 +27,18 @@ function Projects() {
     }
 
     return (
-        <motion.div initial={{ x: 0, opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} transition={{ duration: 0.5 }}>
-            <section className="projects__section" id="projects">
-                <h2 className="section__title">My Projects</h2>
-                <span className="section__subtitle">A little about projects made by me</span>
-                <List list={navList} filterItems={filterItems}/>
+        <motion.div>
+            <AnimatePresence>
+                <section className="projects__section" id="projects">
+                    <h2 className="section__title">My Projects</h2>
+                    <span className="section__subtitle">A little about projects made by me</span>
+                    <List list={navList} filterItems={filterItems} />
 
-                <div className="projects__container container grid">
-                    <Items projectItems={projectItems} />
-                </div>
-            </section>
+                    <div className="projects__container container grid">
+                        <Items projectItems={projectItems} />
+                    </div>
+                </section>
+            </AnimatePresence>
         </motion.div>
 
     );

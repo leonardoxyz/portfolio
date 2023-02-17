@@ -49,17 +49,31 @@
 }
 
 .services__button-repository {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1rem;
-    background-color: rebeccapurple;
-    transition: all 0.3s ease 0s;
+    padding: 17px 40px;
+    border-radius: 10px;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
 }
 
 .services__button-repository:hover {
-    transform: translateY(-4px);
-    box-shadow: 0px 10px 30px white;
+    letter-spacing: 3px;
+    background-color: rgb(141, 0, 206);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgba(189, 189, 189, 0.178) 0px 7px 29px 0px;
+}
+
+.services__button-repository button:active {
+    letter-spacing: 3px;
+    background-color: rgb(141, 0, 206);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
 }
 
 .services__modal {

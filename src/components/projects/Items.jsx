@@ -1,31 +1,45 @@
-import React from 'react'
-import { motion } from 'framer-motion';
+import React from "react";
+import { motion } from "framer-motion";
 
 const Items = ({ projectItems }) => {
   return (
     <>
       {projectItems.map((projectItem) => {
-        const { id, img, category, title, description } = projectItem;
+        const { id, img, category, title, description, repoLink } = projectItem;
         return (
-          <div className="projects__card">
+          <motion.div
+            layout
+            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, scale: 0 }}
+            transition={{ duration: 0.2 }}
+            exit={{ opacity: 0 }}
+            className="projects__card"
+          >
             <div className="projects__img">
               <img src={img} alt="" />
             </div>
 
             <div className="projects__content grid" key={id}>
               <div className="projects__details">
-                <h2>{title}<br /><span>{description}</span><br/>{category}</h2>
+                <h2>
+                  {title}
+                  <br />
+                  <span>{description}</span>
+                  <br />
+                  {category}
+                </h2>
                 <div className="projects__btn">
-                  <a href="https://github.com/leonardoxyz/portfoliov2" target={"blank"}><button className='btn-project' >See Project</button></a>
-                  <a href="https://github.com/leonardoxyz/portfoliov2" target={"blank"}><button className='btn-project' >Live Demo</button></a>
+                  <a href={repoLink} target="_blank">
+                    <button className="btn-project">See Project</button>
+                  </a>
                 </div>
               </div>
             </div>
-          </div>
-        )
+          </motion.div>
+        );
       })}
     </>
-  )
-}
+  );
+};
 
-export default Items
+export default Items;

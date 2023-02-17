@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
+import { motion } from 'framer-motion';
 
 const List = ({ list, filterItems }) => {
   const [active, setActive] = useState(0);
   return (
-    <div className="projects__list">
+    <motion.div
+    layout 
+    className="projects__list">
       {list.map((category, index) => {
         return (
           <button className="projects__list-item"
@@ -17,7 +20,7 @@ const List = ({ list, filterItems }) => {
           </button>
         )
       })}
-    </div>
+    </motion.div>
   )
 }
 
