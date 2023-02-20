@@ -9,6 +9,7 @@ import Opinions from "./components/opinions/Opinions";
 import Projects from "./components/projects/Projects";
 import Footer from "./components/footer/Footer";
 import ScrollUp from "./components/scrollup/ScrollUp";
+import Contact from "./components/contact/Contact";
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
         <Home />
         <About />
         <Skills />
-        <Services />
         <Projects />
+        <Contact/>
         <Footer />
         <ScrollUp/>
       </main>

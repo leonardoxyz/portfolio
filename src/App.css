@@ -38,7 +38,9 @@
   --z-tooltip: 10;
   --z-fixed: 100;
   --z-modal: 1000;
+
 }
+
 
 @media screen and (max-width: 992px) {
   :root {
@@ -118,9 +120,9 @@ img {
 }
 
 .section__title {
-  font-size: var(--h1-font-size);
-  color: rgb(141, 0, 206);
-  text-transform: uppercase;
+    font-size: var(--h1-font-size);
+    color: rgb(141, 0, 206);
+    text-transform: uppercase;
 }
 
 .section__subtitle {
