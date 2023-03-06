@@ -10,7 +10,7 @@ const Backend = () => {
                 <div className="skills__box">
                     <div className="skills__group">
                         <div className="skills__data">
-                            <i class='bx bxl-angular' ></i>
+                            <i className='bx bxl-angular' ></i>
                             <div>
                                 <h3 className="skills__name">Angular 6</h3>
                                 <span className="skills__level">Basic</span>
@@ -18,7 +18,7 @@ const Backend = () => {
                         </div>
 
                         <div className="skills__data">
-                            <i class='bx bx-trending-up'></i>
+                            <i className='bx bx-trending-up'></i>
                             <div>
                                 <h3 className="skills__name">C#</h3>
                                 <span className="skills__level">Basic</span>
@@ -26,7 +26,7 @@ const Backend = () => {
                         </div>
 
                         <div className="skills__data">
-                            <i class='bx bxl-nodejs' ></i>
+                            <i className='bx bxl-nodejs' ></i>
                             <div>
                                 <h3 className="skills__name">NodeJS</h3>
                                 <span className="skills__level">Basic</span>
@@ -34,7 +34,7 @@ const Backend = () => {
                         </div>
 
                         <div className="skills__data">
-                            <i class='bx bxl-mongodb' ></i>
+                            <i className='bx bxl-mongodb' ></i>
                             <div>
                                 <h3 className="skills__name">MongoDB</h3>
                                 <span className="skills__level">Basic</span>

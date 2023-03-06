@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./about.css";
 import secundaryPhoto from "../../assets/secundaryPhoto.jpg";
-// import CV from "../../assets/John-Cv.pdf";
+import myCV from "../../assets/myCV.pdf";
 import Info from './Info';
 import { motion } from 'framer-motion';
 
@@ -35,7 +35,7 @@ export const About = () => {
                                 <div className="services__modal-content">
                                     <i className="uil uil-times services__modal-close" onClick={() => toggleTab(0)}></i>
 
-                                    <h3 className="services__modal-title">A little about me</h3>
+                                    <h1 className="services__modal-title">A little about me</h1>
                                     <p className="about__modal-description uil uil-visual-studio"> - {textMore}</p><br />
                                     <p className="about__modal-description uil uil-analysis"> - {textMore2}</p>
                                     <br />
@@ -45,10 +45,6 @@ export const About = () => {
                                 </div>
                             </div>
                         </p>
-
-                        <motion.a whileHover={{ scale: 1.1 }} transition={{ duration: 0.3 }}>
-                            <a download="" href="" className="button button--flex">Download CV</a>
-                        </motion.a>
                     </div>
                 </div>
             </motion.div>

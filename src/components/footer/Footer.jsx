@@ -1,5 +1,6 @@
 import React from "react";
 import "./footer.css";
+import Projects from '../../pages/pPages/Projects'
 
 const Footer = () => {
   return (
@@ -33,7 +34,7 @@ const Footer = () => {
             className="footer__social-link"
             target="_blank"
           >
-            <i class="uil uil-instagram"></i>
+            <i className="uil uil-instagram"></i>
           </a>
 
           <a
@@ -41,7 +42,7 @@ const Footer = () => {
             className="footer__social-link"
             target={"_blank"}
           >
-            <i class="uil uil-whatsapp"></i>
+            <i className="uil uil-whatsapp"></i>
           </a>
 
           <a
@@ -49,7 +50,7 @@ const Footer = () => {
             className="footer__social-link"
             target={"_blank"}
           >
-            <i class="uil uil-github-alt"></i>
+            <i className="uil uil-github-alt"></i>
           </a>
         </div>
 
@@ -57,6 +58,8 @@ const Footer = () => {
           &#169; Leonardo Santos. All rights reserved.
         </span>
       </div>
+
+      <Projects/>
     </footer>
   );
 };

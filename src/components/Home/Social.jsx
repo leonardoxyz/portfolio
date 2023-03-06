@@ -14,8 +14,8 @@ const Social = () => {
       }}
     >
       <div className="home__social">
-        <button class="btn">
-          <div class="scroll"> </div>
+        <button className="btn">
+          <div className="scroll"> </div>
         </button>
       </div>
     </motion.div>
