@@ -1,6 +1,8 @@
 import MegaHealth from "../src/assets/mh.png";
 import MLoginAPP from "../src/assets/MERN-loginapp.png";
 import Portfolio from "../src/assets/profile.png";
+import DevFlower from "../src/assets/DevFlower.png";
+import Petstop from "../src/assets/Petstop.png";
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
@@ -34,6 +36,22 @@ export const projects = [
     title: "MegaHealth",
     repoLink: "https://github.com/leonardoxyz/MegaHealthTCC",
     description: "Pharmaceutical ecommerce of school.",
+  },
+  {
+    id: 4,
+    img: DevFlower,
+    category: "Website",
+    title: "DevFlower",
+    repoLink: "",
+    description: "Ecommerce project focused on floristry. - In Development.",
+  },
+  {
+    id: 5,
+    img: Petstop,
+    category: "Website",
+    title: "Petstop",
+    repoLink: "",
+    description: "E-commerce project focused on our pets. - In Development.",
   },
 ];
 
