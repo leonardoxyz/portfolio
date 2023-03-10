@@ -1,6 +1,5 @@
 import React from "react";
 import "./footer.css";
-import Projects from '../../pages/pPages/Projects'
 
 const Footer = () => {
   return (
@@ -58,8 +57,6 @@ const Footer = () => {
           &#169; Leonardo Santos. All rights reserved.
         </span>
       </div>
-
-      <Projects/>
     </footer>
   );
 };

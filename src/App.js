@@ -15,16 +15,17 @@ function App() {
   return (
     <>
       <Header />
-
       <main className="main">
         <Home />
         <About />
         <Skills />
         <Projects />
-        <Contact/>
+        <Contact />
         <Footer />
-        <ScrollUp/>
+        <ScrollUp />
+
       </main>
+
     </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Social = () => {
   return (
@@ -16,6 +17,7 @@ const Social = () => {
       <div className="home__social">
         <button className="btn">
           <div className="scroll"> </div>
+
         </button>
       </div>
     </motion.div>

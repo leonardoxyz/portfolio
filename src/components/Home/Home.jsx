@@ -3,7 +3,11 @@ import "./home.css";
 import Data from "./Data";
 import photo from "../../assets/profile.png";
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+import { projects } from "../../Data";
+
 const Home = () => {
+  const navigate = useNavigate();
   return (
     <section className="home section" id="home">
       <div className="home__container container grid">

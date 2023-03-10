@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const Items = ({ projectItems }) => {
   return (
@@ -30,7 +31,9 @@ const Items = ({ projectItems }) => {
                 </h2>
                 <div className="projects__btn">
                   <a href={repoLink} target="_blank">
-                    <button className="btn-project">See Project</button>
+                    <Link to={`/project/${id}`} style={{ color: "black" }}>
+                      <button className="btn-project">See Project</button>
+                    </Link>
                   </a>
                 </div>
               </div>
