@@ -60,7 +60,6 @@
     color: var(--title-color);
 }
 
-.active__link,
 .nav__link:hover {
     color: var(--title-color-white);
 }

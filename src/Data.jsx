@@ -59,7 +59,7 @@ export const projects = [
     logo: DevFlower,
     background: backPort,
     pDesc: "This project started from an activity to acquire knowledge and delivery of works.",
-    demo: "https://github.com/leonardoxyz/DevFlower",
+    demo: "https://devflower.vercel.app",
     repo: "https://github.com/leonardoxyz/DevFlower",
   },
   {

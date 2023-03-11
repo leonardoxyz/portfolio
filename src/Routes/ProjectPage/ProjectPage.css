@@ -1,5 +1,6 @@
 .pPage-back {
   padding: 12px;
+  position: absolute;
 }
 
 .pPage-back button {

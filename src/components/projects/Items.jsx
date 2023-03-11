@@ -9,11 +9,10 @@ const Items = ({ projectItems }) => {
         const { id, img, category, title, description, repoLink } = projectItem;
         return (
           <motion.div
-            layout
-            animate={{ opacity: 1, scale: 1 }}
-            initial={{ opacity: 0, scale: 0 }}
+            initial={{ y: 10, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.2 }}
-            exit={{ opacity: 0 }}
             className="projects__card"
           >
             <div className="projects__img">
