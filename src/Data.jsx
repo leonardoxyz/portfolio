@@ -5,6 +5,8 @@ import DevFlower from "../src/assets/DevFlower.png";
 import Petstop from "../src/assets/Petstop.png";
 import backPort from "../src/assets/backgroundPort.png";
 import logo0 from "../src/assets/logo1.png";
+import backgroundDF from '../src/assets/backgroundDF.png'
+import NardesFigueiredo from '../src/assets/NardesFigueiredo.png'
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
@@ -57,7 +59,7 @@ export const projects = [
     title: "DevFlower",
     description: "Ecommerce project focused on floristry. - In Development.",
     logo: DevFlower,
-    background: backPort,
+    background: backgroundDF,
     pDesc: "This project started from an activity to acquire knowledge and delivery of works.",
     demo: "https://devflower.vercel.app",
     repo: "https://github.com/leonardoxyz/DevFlower",
@@ -73,6 +75,18 @@ export const projects = [
     pDesc: "This project started from an evaluative activity by the company Programmers to deliver activities.",
     demo: "https://github.com/leonardoxyz/PetStop",
     repo: "https://github.com/leonardoxyz/PetStop",
+  },
+  {
+    id: 5,
+    img: NardesFigueiredo,
+    category: "Website",
+    title: "Nardes Figueiredo",
+    description: "Website to demonstrate services contracted by the company Nardes.",
+    logo: NardesFigueiredo,
+    background: backPort,
+    pDesc: "This project focuses on contacting the company, viewing services and promoting your business.",
+    demo: "https://nardesfigueiredo.vercel.app",
+    repo: "https://github.com/leonardoxyz/NardesFigueiredo",
   },
 ];
 

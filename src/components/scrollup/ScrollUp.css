@@ -2,11 +2,12 @@
   position: fixed;
   right: 2.5rem;
   bottom: -20%;
-  background-color: rgb(141, 0, 206);
+  background-color: transparent;
+  border: 1px solid rgb(141, 0, 206);
   padding: 0.3rem 0.5rem;
   border-radius: 0.4rem;
   z-index: var(--z-tooltip);
-  transition: .4s;
+  transition: 0.4s;
   color: white;
 }
 
@@ -17,4 +18,9 @@
 
 .show-scroll {
   bottom: 3rem;
+}
+
+.scrollup:hover {
+  background-color: rgb(141, 0, 206);
+  box-shadow: rgb(189 189 189 / 18%) 0px 7px 29px 0px;
 }

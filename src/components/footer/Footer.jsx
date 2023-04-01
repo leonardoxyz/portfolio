@@ -15,8 +15,8 @@ const Footer = () => {
           </li>
 
           <li>
-            <a href="#opinions" className="footer__link">
-              Opinions
+            <a href="#skills" className="footer__link">
+              Skills
             </a>
           </li>
 
@@ -31,7 +31,7 @@ const Footer = () => {
           <a
             href="https://instagram.com/leozinjbk"
             className="footer__social-link"
-            target="_blank"
+            target={"_blank"}
           >
             <i className="uil uil-instagram"></i>
           </a>

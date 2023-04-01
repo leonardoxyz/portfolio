@@ -25,7 +25,7 @@ const ProjectPage = () => {
       >
         <div className="pPage-back">
           <Link to="http://leonardo.vercel.app">
-            <button>
+            <button className="cta-ppage">
               <BiArrowBack />
             </button>
           </Link>
@@ -65,13 +65,13 @@ const ProjectPage = () => {
 
             <div className="pPage-buttons">
               <Link to={project.demo}>
-                <button>
+                <button className="pp-cta">
                   DEMO
                   <BiRocket />
                 </button>
               </Link>
               <Link to={project.repo}>
-                <button>
+                <button className="pp-cta">
                   REPO
                   <GoMarkGithub />
                 </button>
