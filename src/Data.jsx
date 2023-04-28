@@ -7,6 +7,9 @@ import backPort from "../src/assets/backgroundPort.png";
 import logo0 from "../src/assets/logo1.png";
 import backgroundDF from '../src/assets/backgroundDF.png'
 import NardesFigueiredo from '../src/assets/NardesFigueiredo.png'
+import Csharp from '../src/assets/csharp.png'
+import Lobato from '../src/assets/Lobato.png'
+import Lobato2 from '../src/assets/Lobato2.png'
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
@@ -87,6 +90,30 @@ export const projects = [
     pDesc: "This project focuses on contacting the company, viewing services and promoting your business.",
     demo: "https://nardesfigueiredo.vercel.app",
     repo: "https://github.com/leonardoxyz/NardesFigueiredo",
+  },
+  {
+    id: 6,
+    img: Csharp,
+    category: "Backend",
+    title: "Sistema de Pedido - MVC",
+    description: "Project created for order management and in favor of learning.",
+    logo: Csharp,
+    background: backPort,
+    pDesc: "This project's main functionality is to enable the user to manage the products registered in the database, enabling creation, deletion, editing and also deletion.",
+    demo: "https://github.com/leonardoxyz/SolvedRequests",
+    repo: "https://github.com/leonardoxyz/SolvedRequests",
+  },
+  {
+    id: 7,
+    img: Lobato,
+    category: "React Native",
+    title: "Biblioteca Virtual",
+    description: "Project created with an educational purpose for reading by students - In development.",
+    logo: Lobato2,
+    background: backPort,
+    pDesc: "This project aims to promote reading among students in favor of education.",
+    demo: "https://github.com/leonardoxyz/Lobato-ReactNative-Expo",
+    repo: "https://github.com/leonardoxyz/Lobato-ReactNative-Expo",
   },
 ];
 
