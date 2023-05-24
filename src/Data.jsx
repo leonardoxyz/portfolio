@@ -10,6 +10,7 @@ import NardesFigueiredo from '../src/assets/NardesFigueiredo.png'
 import Csharp from '../src/assets/csharp.png'
 import Lobato from '../src/assets/Lobato.png'
 import Lobato2 from '../src/assets/Lobato2.png'
+import Photoland from '../src/assets/Photoland.png'
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
@@ -34,7 +35,7 @@ export const projects = [
   {
     id: 1,
     img: MLoginAPP,
-    category: "API Apps",
+    category: "Website",
     title: "MERN - Login APP",
     description: "Project for user registration.",
     logo: MLoginAPP,
@@ -46,7 +47,7 @@ export const projects = [
   {
     id: 2,
     img: MegaHealth,
-    category: "API Apps",
+    category: "Website",
     title: "MegaHealth",
     description: "Pharmaceutical ecommerce of school.",
     logo: MegaHealth,
@@ -94,7 +95,7 @@ export const projects = [
   {
     id: 6,
     img: Csharp,
-    category: "Backend",
+    category: "Website",
     title: "Sistema de Pedido - MVC",
     description: "Project created for order management and in favor of learning.",
     logo: Csharp,
@@ -114,6 +115,18 @@ export const projects = [
     pDesc: "This project aims to promote reading among students in favor of education.",
     demo: "https://github.com/leonardoxyz/Lobato-ReactNative-Expo",
     repo: "https://github.com/leonardoxyz/Lobato-ReactNative-Expo",
+  },
+  {
+    id: 8,
+    img: Photoland,
+    category: "Website",
+    title: "E-Commerce Cameras",
+    description: "This project has created with intuit of learning and practice!",
+    logo: Photoland,
+    background: backPort,
+    pDesc: "The project is a sample E-Commerce of Cameras! I used STRIPE for register products, values, names and yours descriptions...",
+    demo: "https://github.com/leonardoxyz/photoland",
+    repo: "https://github.com/leonardoxyz/photoland",
   },
 ];
 
