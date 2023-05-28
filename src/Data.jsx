@@ -11,6 +11,7 @@ import Csharp from '../src/assets/csharp.png'
 import Lobato from '../src/assets/Lobato.png'
 import Lobato2 from '../src/assets/Lobato2.png'
 import Photoland from '../src/assets/Photoland.png'
+import LeoFood from '../src/assets/leofood.png'
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
@@ -127,6 +128,18 @@ export const projects = [
     pDesc: "The project is a sample E-Commerce of Cameras! I used STRIPE for register products, values, names and yours descriptions...",
     demo: "https://github.com/leonardoxyz/photoland",
     repo: "https://github.com/leonardoxyz/photoland",
+  },
+  {
+    id: 9,
+    img: LeoFood,
+    category: "Website",
+    title: "Restaurant Landingpage",
+    description: "This project has created with intuit of learning and practice!",
+    logo: LeoFood,
+    background: backPort,
+    pDesc: "Project created for a fictice Restaurant called LeooFod!",
+    demo: "https://leofood.vercel.app",
+    repo: "https://github.com/leonardoxyz/leofood",
   },
 ];
 

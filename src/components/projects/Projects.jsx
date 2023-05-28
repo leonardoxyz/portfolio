@@ -30,7 +30,11 @@ function Projects() {
   return (
     <motion.div>
       <AnimatePresence>
-        <motion.div initial={{ opacity: 0 }} whileInView={{ y: [-50, 0], opacity: 1 }} transition={{ duration: 0.8 }}>
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ y: [-50, 0], opacity: 1 }}
+          transition={{ duration: 0.8 }}
+        >
           <section className="projects__section" id="projects">
             <h2 className="section__title">My Projects</h2>
             <span className="section__subtitle">
