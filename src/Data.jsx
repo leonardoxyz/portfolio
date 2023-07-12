@@ -12,6 +12,7 @@ import Lobato from '../src/assets/Lobato.png'
 import Lobato2 from '../src/assets/Lobato2.png'
 import Photoland from '../src/assets/Photoland.png'
 import LeoFood from '../src/assets/leofood.png'
+import LeoStore from '../src/assets/ls.png'
 import {
   AiOutlineMail,
   AiOutlineWhatsApp,
@@ -137,9 +138,21 @@ export const projects = [
     description: "This project has created with intuit of learning and practice!",
     logo: LeoFood,
     background: backPort,
-    pDesc: "Project created for a fictice Restaurant called LeooFod!",
+    pDesc: "Project created for a fictice Restaurant called LeoFod!",
     demo: "https://leofood.vercel.app",
     repo: "https://github.com/leonardoxyz/leofood",
+  },
+    {
+    id: 10,
+    img: LeoStore,
+    category: "Website",
+    title: "E-Commerce",
+    description: "This project has created with intuit of learning and practice!",
+    logo: LeoStore,
+    background: backPort,
+    pDesc: "Project created for a fictice E-Commerce called LeoStore!",
+    demo: "https://leostore.vercel.app",
+    repo: "https://github.com/leonardoxyz/leostore",
   },
 ];
 
