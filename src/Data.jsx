@@ -152,7 +152,7 @@ export const projects = [
     background: backPort,
     pDesc: "Project created for a fictice E-Commerce called LeoStore!",
     demo: "https://leostore.vercel.app",
-    repo: "https://github.com/leonardoxyz/leostore",
+    repo: "https://github.com/leonardoxyz/store-client",
   },
 ];
 
